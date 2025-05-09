@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Todo List5.css"> 
+    <!-- cdn bootsratpe -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+    crossorigin="anonymous"
+  />
+  <!-- kit fontawsome -->
+  <script
+    src="https://kit.fontawesome.com/2a53c15afc.js"
+    crossorigin="anonymous"
+  ></script>
+    <title>Todo List 5</title>
+</head>
+<body>
+<div class="main-parent">
+<h1 style="color: red;margin: 12px;letter-spacing: 15px;">TODO LIST</h1>
+<br>
+<input type="text" placeholder="Enter Your Task" class="form-control w-75" id="inputbyuser">
+<br>
+<p id="alert"></p>
+<br>
+<button class="btn btn-outline-danger" onclick="onaddNewTodo()">Add</button>
+<br>
+<div class="w-75">
+    <h1>List Your Task Here</h1>
+    <br>
+<ul id="rootcontforTodo"></ul>
+</div>
+<br>
+<button class="btn btn-success" onclick="onSaveTodo()">Save</button>
+<br><br>
+</div>
+
+
+    <script src="Todo List5.js"></script>
+</body>
+</html>

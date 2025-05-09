@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main-cont{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.list-cont-todo{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+    padding: 8px;
+}
+.label-cont{
+    /* border: 2px solid red; */
+    background-color:cadetblue;
+  height:53px;
+  width: 80%;
+  padding: 8px;
+  border-radius: 12px;
+  margin-left: 20px;
+  border-left: 7px solid rgb(67, 84, 84);
+  display: flex;
+  justify-content: space-between;
+}
+.deletebtn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.deletebtn:focus{
+    border: none;
+    outline: none;
+}
